@@ -1,0 +1,8 @@
+file_format: "1"
+id: j46kv2
+name: J46Kv2
+type: shield
+url: https://discord.gg/ktUDJ3w
+requires: [pro_micro]
+features:
+  - keys

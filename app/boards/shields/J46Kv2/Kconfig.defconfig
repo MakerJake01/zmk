@@ -1,0 +1,9 @@
+# Copyright (c) 2021 The ZMK Contributors 
+# SPDX-License-Identifier: MIT 
+
+if SHIELD_j46kv2
+
+config ZMK_KEYBOARD_NAME
+	default "J46Kv2"
+
+endif
