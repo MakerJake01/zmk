@@ -3,7 +3,6 @@ id: j46kxiao
 name: J46K-Xiao
 type: shield
 url: https://discord.gg/ktUDJ3w
-requires: [Xiao]
 features:
   - keys
 siblings:
