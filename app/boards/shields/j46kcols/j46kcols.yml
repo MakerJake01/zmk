@@ -1,0 +1,10 @@
+file_format: "1"
+id: j46kcols
+name: J46K-ColS
+type: shield
+url: https://discord.gg/ktUDJ3w
+features:
+  - keys
+siblings:
+  - j46kcols_left
+  - j46kcols_right
