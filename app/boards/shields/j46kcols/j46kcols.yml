@@ -1,8 +1,9 @@
 file_format: "1"
 id: j46kcols
-name: J46K-ColS
+name: J46KColS
 type: shield
 url: https://discord.gg/ktUDJ3w
+requires: [pro_micro]
 features:
   - keys
 siblings:

@@ -1,17 +1,17 @@
 # Copyright (c) 2021 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if SHIELD_J46KCols_LEFT
+if SHIELD_J46KCOLS_LEFT
 
 config ZMK_KEYBOARD_NAME
-	default "J46K-ColS"
+	default "J46KColS"
 
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
 	default y
 
 endif
 
-if SHIELD_J46KXIAO_LEFT || SHIELD_J46KXIAO_RIGHT
+if SHIELD_J46KCOLS_LEFT || SHIELD_J46KCOLS_RIGHT
 
 config ZMK_SPLIT
 	default y
