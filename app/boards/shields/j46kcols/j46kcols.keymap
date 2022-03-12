@@ -29,6 +29,7 @@
         &kp LSHIFT &kp Z    &kp X    &kp C     &kp V     &kp B     &kp N     &kp M     &kp COMMA &kp DOT  &kp FSLH  &kp RSHFT
         &kp LCTRL  &kp LGUI &kp LALT &mo MOUSE &mo NUMBS &mo NUMBS &kp SPACE &kp SPACE &mo FUNC  &kp LALT &kp RCTRL &kp RGUI 
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
         numbers_layer {
@@ -56,7 +57,6 @@
         &kp LSHIFT &trans   &trans         &trans         &trans               &bt BT_NXT &bt BT_CLR   &trans             &trans             &trans              &trans   &trans
         &kp LCTRL  &kp LGUI &kp LALT       &trans         &trans               &trans     &trans       &trans             &trans             &kp LALT            &kp RGUI &trans
             >;
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
     };
 };
