@@ -1,0 +1,10 @@
+file_format: "1"
+id: j46kxiao
+name: J46K-Xiao
+type: shield
+url: https://discord.gg/ktUDJ3w
+features:
+  - keys
+siblings:
+  - j46kxiao_left
+  - j46kxiao_right
