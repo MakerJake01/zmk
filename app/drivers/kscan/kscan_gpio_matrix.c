@@ -250,6 +250,10 @@ static int kscan_matrix_read(const struct device *dev) {
             LOG_ERR("Failed to set output %i inactive: %i", o, err);
             return err;
         }
+
+#if CONFIG_ZMK_KSCAN_SLEEP_BETWEEN_OUTPUTS > 0
+        k_sleep(K_TICKS(CONFIG_ZMK_KSCAN_SLEEP_BETWEEN_OUTPUTS));
+#endif
     }
 
     // Process the new state.

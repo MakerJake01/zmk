@@ -60,6 +60,16 @@ config ZMK_KSCAN_DEBOUNCE_RELEASE_MS
 		Devicetree property, which defaults to 5 ms. Otherwise this overrides the
 		debounce time for all key scan drivers to the chosen value.
 
+config ZMK_KSCAN_SLEEP_BETWEEN_OUTPUTS
+    int "Ticks to wait between each output when scanning"
+	default 0
+	help
+	    When iterating over each output to drive it active, read inputs, then set
+		inactive again, some boards may take time for the previous output to
+		"settle" before reading inputs for the next active output column. In that
+		scenario, set this value to a positive value to configure the number of
+		ticks to wait after reading each column of keys.
+
 endif
 
 config ZMK_KSCAN_INIT_PRIORITY
