@@ -17,8 +17,8 @@
 
         default_layer {
             bindings = <
-        &kp N1    &kp N2   
-        &kp N3   &kp N4  
+        &kp Z    &kp X
+        &kp PERIOD   &kp SLASH  
             >;
         };
     };
