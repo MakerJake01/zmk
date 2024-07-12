@@ -4,18 +4,13 @@ manifest:
       url-base: https://github.com/zephyrproject-rtos
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: petejohanson
-      url-base: https://github.com/petejohanson
-    - name: microsoft
-      url-base: https://github.com/microsoft
   projects:
     - name: zephyr
-      remote: petejohanson
-      revision: v3.0.0+zmk-fixes
+      remote: zmkfirmware
+      revision: v3.5.0+zmk-fixes
       clone-depth: 1
       import:
-        # TODO: Rename once upstream offers option like `exclude` or `denylist`
-        name-blacklist:
+        name-blocklist:
           - ci-tools
           - hal_altera
           - hal_cypress
@@ -31,7 +26,6 @@ manifest:
           - mcuboot
           - mcumgr
           - net-tools
-          - segger
           - openthread
           - edtt
           - trusted-firmware-m

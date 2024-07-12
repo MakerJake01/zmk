@@ -27,7 +27,7 @@ To make it easier to encode the HID keycode numeric values, most keymaps include
 the [`dt-bindings/zmk/keys.h`](https://github.com/zmkfirmware/zmk/blob/main/app/include/dt-bindings/zmk/keys.h) header
 provided by ZMK near the top:
 
-```
+```dts
 #include <dt-bindings/zmk/keys.h>
 ```
 
@@ -40,10 +40,10 @@ The "key press" behavior sends standard keycodes on press/release.
 ### Behavior Binding
 
 - Reference: `&kp`
-- Parameter: The keycode usage ID from the usage page, e.g. `4` or `A`
+- Parameter: The keycode usage ID from the usage page, e.g. `N4` or `A`
 
 Example:
 
-```
+```dts
 &kp A
 ```
